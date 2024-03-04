@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px; /* Ubah ukuran logo sesuai kebutuhan */
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+article {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+article img {
+    width: auto;
+    height: 200px;
+    margin-top: 20px;
+}
+
+section {
+    flex: 1 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.specials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.special-item {
+    flex: 1 30%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.special-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.special-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.special-item p {
+    line-height: 1.5;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    line-height: 1.5;
+}
+
+.menu-item img {
+    max-width: 100px; /* Ubah ukuran maksimum lebar gambar */
+    height: auto;
+}
+
+.about-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+aside {
+    flex: 1 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+aside img {
+    width: 20%; /* Ubah ukuran gambar sesuai kebutuhan */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
